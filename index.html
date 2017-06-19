@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-    <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8"/>
         <title>Jose Vives - Portfolio</title>
@@ -10,12 +9,8 @@
         <meta content="jose vives" name="author"/>
 
         <!-- GLOBAL MANDATORY STYLES -->
-        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-
-        <!-- PAGE LEVEL PLUGIN STYLES -->
-        <link href="css/animate.css" rel="stylesheet">
+        <link href="js/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="js/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
         <!-- THEME STYLES -->
         <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
@@ -24,29 +19,21 @@
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
 
-        <!--My own javascript-->
+        <!-- Javascript to load projects -->
         <script src="js/jota.js" type="text/javascript"></script>
 
     </head>
-    <!-- END HEAD -->
 
-    <!-- BODY -->
     <body id="body">
 
-        <!--========== PAGE LAYOUT ==========-->
-        <!-- About -->
         <div id="about">
             <div class="bg-color-sky" data-auto-height="true">
             <div class="container content-lg">
                 <div class="row">
                     <div class="col-sm-3 sm-margin-b-30">
                         <div class="text-right sm-text-left">
-                            <!--<h2 class="margin-b-0">Intro</h2>-->
-                            <!--<p>What I am all about.</p>-->
-                            <!--<div class="promo-block-divider">-->
-                                <h1 class="promo-block-title">Jose Vives</h1>
-                                <p class="promo-block-text">Software Developer</p>
-                            <!--</div>-->
+                            <h1 class="promo-block-title">Jose Vives</h1>
+                            <p class="promo-block-text">Software Developer</p>
                             <ul class="list-inline">
                                 <li><a href="https://www.facebook.com/jotask" class="social-icons"><i class="icon-social-facebook"></i></a></li>
                                 <li><a href="https://twitter.com/jota_sk" class="social-icons"><i class="icon-social-twitter"></i></a></li>
@@ -56,9 +43,8 @@
                         </div>
                     </div>
                     <div class="col-sm-8 col-sm-offset-1">
-                        <!-- Masonry Grid -->
                         <div class="masonry-grid row row-space-2">
-                            <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                            <!--<div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>-->
 
                             <div id="rider"><script>loadProject("rider")</script></div>
                             <div id="rosjam"><script>loadProject("rosjam")</script></div>
@@ -68,16 +54,12 @@
                             <div id="nah"><script>loadProject("nah")</script></div>
 
                         </div>
-                        <!--End Masonry Grid-->
                     </div>
                 </div>
-                <!--// end row -->
             </div>
             </div>
         </div>
-        <!-- End About -->
-            
-        <!-- Contact -->
+
         <div id="contact">
             <div class="bg-color-sky-light" data-auto-height="true">
                 <div class="container content-lg">
@@ -85,7 +67,6 @@
                         <div class="col-sm-3 sm-margin-b-30">
                             <div class="text-right sm-text-left">
                                 <h2 class="margin-b-0">Contacts</h2>
-                                <p>Hire me.</p>
                             </div>
                         </div>
                         <div class="col-sm-8 col-sm-offset-1">
@@ -99,43 +80,29 @@
                                     <a href="mailto:#">jota_sk@hotmail.com</a>
                                 </div>
                                 <div class="col-md-3 col-xs-6">
-                                    <h5><i class="icon-size-fullscreen"></i> Web</h5>
+                                    <h5><i class="icon-magic-wand"></i> Web</h5>
                                     <a href="http://keenthemes.com/">jotask.github.io</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--// end row -->
                 </div>
             </div>
         </div>
-        <!-- End Contact -->
-        <!--========== END PAGE LAYOUT ==========-->
 
-        <!--========== FOOTER ==========-->
         <footer class="footer">
             <div class="content container">
                 <div class="row">
                     <div class="col-xs-6">
-                        <!--<img class="footer-logo" src="img/logo-dark.png" alt="Aircv Logo">-->
                     </div>
                     <div class="col-xs-6 text-right sm-text-left">
                         <p class="margin-b-0"><a class="fweight-700" href="#">Jose Vives Iznardo</a> </p>
                     </div>
                 </div>
-                <!--// end row -->
             </div>
         </footer>
-        <!--========== END FOOTER ==========-->
-
-        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-        <!-- CORE PLUGINS -->
-        <script src="vendor/jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-
-        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
-
-
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery.appear.js" type="text/javascript"></script>
     </body>
-    <!-- END BODY -->
 </html>
