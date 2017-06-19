@@ -45,3 +45,7 @@
 .project:hover {
     border: 3px dotted black;
 }
+
+.item{
+    padding-top: 10px;
+}
