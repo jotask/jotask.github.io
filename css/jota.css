@@ -51,3 +51,12 @@
 .project:hover {
     border: 3px dotted black;
 }
+
+.col{
+    margin-bottom: 15px;
+    max-width: 370px;
+    min-width: 100px;
+    min-height: 200px;
+    height: auto;
+    height: auto;
+}
