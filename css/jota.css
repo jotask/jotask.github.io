@@ -42,10 +42,12 @@
     image-rendering: pixelated;
 }
 
-.project:hover {
-    border: 3px dotted black;
+.project img{
+    margin: 5px;
+    max-height: 397px;
+    max-width: 300px;
 }
 
-.item{
-    padding-top: 10px;
+.project:hover {
+    border: 3px dotted black;
 }
