@@ -1,9 +1,6 @@
 /**
  * Created by Jota on 10/06/2017.
  */
-function loadProjects(){
-    loadProject("rosjam");
-}
 
 function loadProject(project){
     var xhr = typeof XMLHttpRequest != 'undefined' ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');

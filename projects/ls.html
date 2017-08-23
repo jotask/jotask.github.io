@@ -1,5 +1,20 @@
-<div class="col-xs-12 col-sm-6 col-md-5 col">
-    <img class="full-width img-responsive project" src="img/lss.png" alt="Portfolio Image" data-toggle="modal" data-target="#ls_model">
+<div class="col-xs-12 col-sm-6 col-md-4 col">
+    <div class="card bg-color-white">
+        <img class="card-img-top" src="img/lss.png">
+        <div class="card-block">
+            <h4 class="card-title">Life Simulator</h4>
+            <div class="meta">
+                Java, LibGdx, Box2D
+            </div>
+            <div class="card-text">
+                Implementation of NeuroEvolution of Augmenting Topologies algorithm for the project Rosjam.
+            </div>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-default float-right btn-sm pull-left tmp" onclick="window.open('https://github.com/jotask/LifeSimulator')"><i class="icon-social-github"></i> Github</button>
+            <button class="btn btn-info float-right btn-sm pull-right tmp" data-toggle="modal" data-target="#ls_model"><i class="icon-plus"></i> Details</button>
+        </div>
+    </div>
 </div>
 <div id="ls_model" class="modal fade" role="dialog">
     <div class="modal-dialog">
@@ -58,7 +73,7 @@
                                     <div class="margin-t-10 sm-margin-t-0">
                                         <ul class="list-group-item-heading text-justify">
                                             <li>Part of the project Rosjam.</li>
-                                            <li>Use of NeuroEvolution of Augmenting Topologies algorithm (NEAT).</li>
+                                            <li>Implementation of the NeuroEvolution of Augmenting Topologies algorithm (NEAT).</li>
                                             <li>Evolve Artificial Neural Networks (ANN) using Genetic Algorithms (GA).</li>
                                             <li>Entities (red dots) learns how to kill the player( black dot) by learning how to use a weapon (blue rectangle).</li>
                                             <li>The topology of the ANN and the weights change and evolve by the GA.</li>
